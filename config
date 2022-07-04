@@ -1,0 +1,26 @@
+[core]
+    repositoryformatversion = 0
+    filemode = false
+    bare = false
+    logallrefupdates = true
+    autocrlf = false
+[remote "bit"]
+    url = https://oliver7972@bitbucket.org/oliver7972/golang-chat.git
+    fetch = +refs/heads/*:refs/remotes/origin/* 
+[remote "git"]
+    url = https://Oliver-Guo@github.com/Oliver-Guo/golang-chat.git
+    fetch = +refs/heads/*:refs/remotes/origin/* 
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    type = cat-file -t
+    dump = cat-file -p
+[gui]
+    wmstate = normal
+    geometry = 1047x531+180+180 224 240
+[user]
+    email = energetic0702@gmail.com
+    name = Oliver-Guo
